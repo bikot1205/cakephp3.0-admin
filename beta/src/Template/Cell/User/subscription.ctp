@@ -1,0 +1,1 @@
+<?php echo ($result) ? 'Moderator' : 'Normal user'; ?>

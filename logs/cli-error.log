@@ -1,0 +1,976 @@
+2016-07-25 22:03:05 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Schema" could not be found.
+Exception Attributes: array (
+  'class' => 'Schema',
+)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(218): Cake\Console\ShellDispatcher->findShell('Schema')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-07-26 11:14:14 Error: [RuntimeException] Could not locate jquery.js for libs.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('libs.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('libs.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 11:14:47 Error: [RuntimeException] Could not locate assets/js/jquery.min.js for jquery-combined.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('jquery-combined...')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('jquery-combined...')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 11:16:03 Error: [RuntimeException] Could not locate /assets/js/jquery.min.js for jquery-combined.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('jquery-combined...')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('jquery-combined...')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 11:16:45 Error: [RuntimeException] Could not locate assets/js/jquery.min.js for jquery-combined.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('jquery-combined...')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('jquery-combined...')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 11:18:52 Error: [RuntimeException] Error: Unable to access jarfile
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "" --...', '/*! jQuery v2.1...')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*! jQuery v2.1...')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*! jQuery v2.1...')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-26 11:35:06 Error: [RuntimeException] Error: Unable to access jarfile
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "" --...', '/*! jQuery v2.1...')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*! jQuery v2.1...')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*! jQuery v2.1...')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-26 11:48:41 Error: [RuntimeException] Could not locate jquery.js for libs.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('libs.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('libs.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 11:59:53 Error: [RuntimeException] Could not locate jquery.js for libs.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('libs.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('libs.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 12:00:32 Error: [RuntimeException] Could not locate layout.css for all.css in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('all.css')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('all.css')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 12:00:48 Error: [RuntimeException] Could not locate assets/js/jquery.min.js for jquery-combined.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('jquery-combined...')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('jquery-combined...')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 12:01:32 Error: [RuntimeException] Error: Unable to access jarfile
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "" --...', '')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-26 12:02:27 Error: [RuntimeException] Error: Unable to access jarfile
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "" --...', '')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-26 12:24:22 Error: [RuntimeException] Error: Unable to access jarfile
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "" --...', '')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-26 13:55:26 Error: [RuntimeException] Could not locate assets/css/bootstrap.min.css for layout.css in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('layout.css')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('layout.css')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 14:00:42 Error: [RuntimeException] Could not locate WEBROOT/froala/js/froala_editor.min for editor.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('editor.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('editor.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 14:01:18 Error: [RuntimeException] Could not locate WEBROOT/froala/js/froala_editor.min for editor.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('editor.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('editor.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 14:02:08 Error: [RuntimeException] Could not locate WEBROOT/froala/js/froala_editor.min for editor.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('editor.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('editor.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 14:02:55 Error: [RuntimeException] Could not locate WEBROOT/froala/js/plugins/align.min for editor.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('editor.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('editor.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-26 14:03:18 Error: [RuntimeException] Error: Unable to access jarfile
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "" --...', '')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-27 08:05:40 Error: [RuntimeException] Could not locate assets/css/bootstrap.min.css for layout.css in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('layout.css')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('layout.css')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-27 08:06:51 Error: [RuntimeException] Could not locate assets/js/jquery.min.js for layout.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('layout.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('layout.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-07-27 08:08:29 Error: [RuntimeException] Error: Unable to access jarfile
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "" --...', '')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-27 08:26:53 Error: [RuntimeException] sh: /usr/local/bin/node: No such file or directory
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/Uglifyjs.php(46): MiniAsset\Filter\AssetFilter->_runCmd('/usr/local/bin/...', '/*! jQuery v2.1...', Array)
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\Uglifyjs->output('/Users/prakashs...', '/*! jQuery v2.1...')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*! jQuery v2.1...')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-27 08:40:41 Error: [RuntimeException] module.js:442
+    throw err;
+    ^
+
+Error: Cannot find module '/usr/local/bin/uglifyjs'
+    at Function.Module._resolveFilename (module.js:440:15)
+    at Function.Module._load (module.js:388:25)
+    at Module.runMain (module.js:575:10)
+    at run (bootstrap_node.js:352:7)
+    at startup (bootstrap_node.js:144:9)
+    at bootstrap_node.js:467:3
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/Uglifyjs.php(46): MiniAsset\Filter\AssetFilter->_runCmd('/usr/local/bin/...', '/*! jQuery v2.1...', Array)
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\Uglifyjs->output('/Users/prakashs...', '/*! jQuery v2.1...')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*! jQuery v2.1...')
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-07-27 09:09:41 Error: [RuntimeException] Could not locate froala_editor.min for editor.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('editor.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('editor.js')
+#2 [internal function]: MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(127): iterator_to_array(Object(MiniAsset\AssetCollection))
+#4 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(87): AssetCompress\Shell\AssetCompressShell->_clearBuilds()
+#5 [internal function]: AssetCompress\Shell\AssetCompressShell->clear()
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2016-07-27 09:09:54 Error: [RuntimeException] Could not locate froala_editor.min for editor.js in any configured path.
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(100): MiniAsset\Factory->target('editor.js')
+#1 /Users/prakashsaini/Sites/chatroom/vendor/markstory/mini-asset/src/AssetCollection.php(169): MiniAsset\AssetCollection->get('editor.js')
+#2 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(40): MiniAsset\AssetCollection->current()
+#3 /Users/prakashsaini/Sites/chatroom/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#4 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#5 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#6 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(221): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#8 /Users/prakashsaini/Sites/chatroom/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#9 /Users/prakashsaini/Sites/chatroom/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#10 {main}
+
+
+2016-10-13 12:42:43 Error: [Cake\Console\Exception\MissingShellException] Shell class for "-help" could not be found.
+Exception Attributes: array (
+  'class' => '-help',
+)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(223): Cake\Console\ShellDispatcher->findShell('-help')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-10-27 12:27:15 Error: [RuntimeException] [ERROR] 1106:21320:missing name after . operator
+
+[ERROR] 1106:23181:missing ) after argument list
+
+[ERROR] 1106:24313:missing name after . operator
+
+[ERROR] 1106:24969:missing ) after argument list
+
+[ERROR] 1106:27620:missing ; before statement
+
+[ERROR] 2059:23:missing name after . operator
+
+[ERROR] 2060:28:syntax error
+
+[ERROR] 2061:18:missing ; before statement
+
+[ERROR] 2063:6:missing ) after argument list
+
+[ERROR] 2067:2:missing ; before statement
+
+[ERROR] 4003:29:missing } after function body
+
+[ERROR] 4003:29:missing } after function body
+
+[ERROR] 4003:29:missing } after function body
+
+[ERROR] 1:0:Compilation produced 13 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 13 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-10-27 12:28:28 Error: [RuntimeException] [ERROR] 1106:21320:missing name after . operator
+
+[ERROR] 1106:23181:missing ) after argument list
+
+[ERROR] 1106:24313:missing name after . operator
+
+[ERROR] 1106:24969:missing ) after argument list
+
+[ERROR] 1106:27620:missing ; before statement
+
+[ERROR] 3876:29:missing } after function body
+
+[ERROR] 3876:29:missing } after function body
+
+[ERROR] 3876:29:missing } after function body
+
+[ERROR] 3876:29:missing } after function body
+
+[ERROR] 1:0:Compilation produced 9 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 9 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-11-07 11:21:34 Error: [RuntimeException] [ERROR] 1107:21320:missing name after . operator
+
+[ERROR] 1107:23181:missing ) after argument list
+
+[ERROR] 1107:24313:missing name after . operator
+
+[ERROR] 1107:24969:missing ) after argument list
+
+[ERROR] 1107:27620:missing ; before statement
+
+[ERROR] 2060:23:missing name after . operator
+
+[ERROR] 2061:28:syntax error
+
+[ERROR] 2062:18:missing ; before statement
+
+[ERROR] 2064:6:missing ) after argument list
+
+[ERROR] 2068:2:missing ; before statement
+
+[ERROR] 4004:29:missing } after function body
+
+[ERROR] 4004:29:missing } after function body
+
+[ERROR] 4004:29:missing } after function body
+
+[ERROR] 1:0:Compilation produced 13 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 13 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-11-07 11:21:46 Error: [RuntimeException] [ERROR] 1107:21320:missing name after . operator
+
+[ERROR] 1107:23181:missing ) after argument list
+
+[ERROR] 1107:24313:missing name after . operator
+
+[ERROR] 1107:24969:missing ) after argument list
+
+[ERROR] 1107:27620:missing ; before statement
+
+[ERROR] 3877:29:missing } after function body
+
+[ERROR] 3877:29:missing } after function body
+
+[ERROR] 3877:29:missing } after function body
+
+[ERROR] 3877:29:missing } after function body
+
+[ERROR] 1:0:Compilation produced 9 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 9 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/AssetCompiler.php(71): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\AssetCompiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-12-27 09:10:14 Error: [RuntimeException] [ERROR] 1746:26943:invalid property id
+
+[ERROR] 1:0:Compilation produced 1 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 1 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-12-27 09:10:24 Error: [RuntimeException] [ERROR] 1746:26943:invalid property id
+
+[ERROR] 1:0:Compilation produced 1 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 1 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-12-27 09:11:22 Error: [RuntimeException] [ERROR] 1746:26943:invalid property id
+
+[ERROR] 1:0:Compilation produced 1 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 1 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-12-27 09:11:38 Error: [RuntimeException] [ERROR] 1746:26943:invalid property id
+
+[ERROR] 1:0:Compilation produced 1 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 1 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2016-12-27 09:11:53 Error: [RuntimeException] [ERROR] 1746:26943:invalid property id
+
+[ERROR] 1:0:Compilation produced 1 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 1 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2017-01-06 11:34:28 Error: [RuntimeException] [ERROR] 1107:21320:missing name after . operator
+
+[ERROR] 1107:23181:missing ) after argument list
+
+[ERROR] 1107:24313:missing name after . operator
+
+[ERROR] 1107:24969:missing ) after argument list
+
+[ERROR] 1107:27620:missing ; before statement
+
+[ERROR] 1752:26943:invalid property id
+
+[ERROR] 3886:29:missing } after function body
+
+[ERROR] 3886:29:missing } after function body
+
+[ERROR] 3886:29:missing } after function body
+
+[ERROR] 3886:29:missing } after function body
+
+[ERROR] 1:0:Compilation produced 10 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 10 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2017-01-06 11:37:43 Error: [RuntimeException] [ERROR] 1107:21320:missing name after . operator
+
+[ERROR] 1107:23181:missing ) after argument list
+
+[ERROR] 1107:24313:missing name after . operator
+
+[ERROR] 1107:24969:missing ) after argument list
+
+[ERROR] 1107:27620:missing ; before statement
+
+[ERROR] 3878:29:missing } after function body
+
+[ERROR] 3878:29:missing } after function body
+
+[ERROR] 3878:29:missing } after function body
+
+[ERROR] 3878:29:missing } after function body
+
+[ERROR] 1:0:Compilation produced 9 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 9 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2017-01-06 11:38:14 Error: [RuntimeException] [ERROR] 1107:21320:missing name after . operator
+
+[ERROR] 1107:23181:missing ) after argument list
+
+[ERROR] 1107:24313:missing name after . operator
+
+[ERROR] 1107:24969:missing ) after argument list
+
+[ERROR] 1107:27620:missing ; before statement
+
+[ERROR] 3664:29:missing } after function body
+
+[ERROR] 3664:29:missing } after function body
+
+[ERROR] 3664:29:missing } after function body
+
+[ERROR] 3664:29:missing } after function body
+
+[ERROR] 1:0:Compilation produced 9 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 9 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2017-01-06 11:39:17 Error: [RuntimeException] [ERROR] 1746:26943:invalid property id
+
+[ERROR] 1:0:Compilation produced 1 syntax errors.
+org.mozilla.javascript.EvaluatorException: Compilation produced 1 syntax errors.
+	at com.yahoo.platform.yui.compressor.YUICompressor$1.runtimeError(YUICompressor.java:154)
+	at org.mozilla.javascript.Parser.parse(Parser.java:392)
+	at org.mozilla.javascript.Parser.parse(Parser.java:337)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.parse(JavaScriptCompressor.java:312)
+	at com.yahoo.platform.yui.compressor.JavaScriptCompressor.<init>(JavaScriptCompressor.java:533)
+	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)
+Stack Trace:
+#0 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/YuiJs.php(48): MiniAsset\Filter\AssetFilter->_runCmd('java -jar "/Use...', '/*\n * CustomEve...')
+#1 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Filter/FilterCollection.php(66): MiniAsset\Filter\YuiJs->output('/Users/prakashs...', '/*\n * CustomEve...')
+#2 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/mini-asset/src/Output/Compiler.php(73): MiniAsset\Filter\FilterCollection->output('/Users/prakashs...', '/*\n * CustomEve...')
+#3 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(74): MiniAsset\Output\Compiler->generate(Object(MiniAsset\AssetTarget))
+#4 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/Task/AssetBuildTask.php(48): AssetCompress\Shell\Task\AssetBuildTask->_buildTarget(Object(MiniAsset\AssetTarget))
+#5 /Users/prakashsaini/Sites/chatroom/beta/vendor/markstory/asset_compress/src/Shell/AssetCompressShell.php(74): AssetCompress\Shell\Task\AssetBuildTask->build()
+#6 [internal function]: AssetCompress\Shell\AssetCompressShell->build()
+#7 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/Shell.php(452): call_user_func_array(Array, Array)
+#8 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 /Users/prakashsaini/Sites/chatroom/beta/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 /Users/prakashsaini/Sites/chatroom/beta/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+

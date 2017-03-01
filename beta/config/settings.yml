@@ -1,0 +1,6 @@
+Config.language: eng
+Site.copyright: 'Copyright © 2017 New Muslims Lounge. All rights reserved.'
+Site.email: info@chatroom.com
+Site.name: 'New muslims lounge'
+Site.Registration.InvitationOnly: '1'
+Site.Registration.SocialLogin: '0'
